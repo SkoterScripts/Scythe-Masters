@@ -1,0 +1,726 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("De biel17124 & Yukizx61", "Default")
+
+local tab = DrRayLibrary.newTab("Auto Farm", "ImageIdHere")
+
+local G = {auto = false}
+
+local function stopIfDisabled()
+	if not G.auto then
+		return true
+	end
+end
+
+
+---------------------------------------------------
+-- TOGGLE 1: AUTO FARM
+---------------------------------------------------
+tab.newToggle("Coletar automático", "Colete presentes automaticamente", true, function(toggleState)
+	if toggleState then
+		G.auto = true
+
+		task.spawn(function()
+			while G.auto do
+				local char = game.Players.LocalPlayer.Character
+				if char and char:FindFirstChild("HumanoidRootPart") then
+					task.spawn(function()
+	while G.auto do
+		local char = game.Players.LocalPlayer.Character
+		if char and char:FindFirstChild("HumanoidRootPart") then
+
+			char.HumanoidRootPart.CFrame = CFrame.new(-4197, 306, 5439)
+			if stopIfDisabled() then return end
+
+			task.wait()
+			char.HumanoidRootPart.CFrame = CFrame.new(-4179, 306, 5437)
+			if stopIfDisabled() then return end
+
+			task.wait()
+			char.HumanoidRootPart.CFrame = CFrame.new(-4148, 306, 5442)
+			if stopIfDisabled() then return end
+           
+            task.wait()
+            char.HumanoidRootPart.CFrame = CFrame.new(-4125, 306, 5440)
+            if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4100, 306, 5445)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4205, 306, 5465)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4183, 306, 5460)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4167, 306, 5455)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4138, 306, 5463)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4121, 306, 5465)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4099, 306, 5473)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4154, 306, 5476)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4186, 306, 5475)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4179, 306, 5492)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4161, 306, 5493)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4146, 306, 5497)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4127, 306, 5493)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4105, 306, 5492)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4096, 306, 5506)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4119, 306, 5513)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4143, 306, 5522)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4157, 306, 5536)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4139, 306, 5542)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4112, 306, 5531)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4122, 306, 5548)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4137, 306, 5559)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4129, 306, 5579)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4115, 306, 5570)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4105, 306, 5553)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4091, 306, 5539)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4081, 306, 5526)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4063, 306, 5514)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4065, 306, 5531)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4080, 306, 5553)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4093, 306, 5569)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4106, 306, 5595)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4125, 306, 5598)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4115, 306, 5610)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4091, 306, 5615)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4086, 306, 5593)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4069, 306, 5572)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4058, 306, 5550)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4048, 306, 5525)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4033, 306, 5513)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4038, 306, 5546)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4042, 306, 5561)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4045, 306, 5579)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4022, 306, 5565)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3967, 306, 5522)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3977, 306, 5542)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3973, 306, 5557)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3970, 306, 5587)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3953, 306, 5600)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3951, 306, 5581)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3943, 306, 5563)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3970, 306, 5561)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3957, 306, 5544)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3953, 306, 5514)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3937, 306, 5513)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3937, 306, 5537)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3929, 306, 5575)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3923, 306, 5557)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3933, 306, 5516)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3912, 306, 5511)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3916, 306, 5527)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3911, 306, 5542)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3907, 306, 5569)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3909, 306, 5591)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3889, 306, 5585)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3891, 306, 5566)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3894, 306, 5544)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3894, 306, 5525)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3881, 306, 5543)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3868, 306, 5563)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3849, 306, 5566)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3855, 306, 5543)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3876, 306, 5523)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3891, 306, 5499)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3899, 306, 5479)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3874, 306, 5503)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3855, 306, 5521)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3845, 306, 5530)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3825, 306, 5507)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3848, 306, 5501)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3865, 306, 5488)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3884, 306, 5468)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3898, 306, 5461)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3805, 306, 5504)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3819, 306, 5491)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3836, 306, 5482)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3855, 306, 5468)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3871, 306, 5450)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3886, 306, 5443)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3857, 306, 5436)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3840, 306, 5449)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3817, 306, 5443)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3801, 306, 5447)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3810, 306, 5388)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3831, 306, 5389)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3856, 306, 5381)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3881, 306, 5390)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3898, 306, 5372)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3874, 306, 5371)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3839, 306, 5372)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3821, 306, 5368)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3835, 306, 5374)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3835, 306, 5389)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3794, 306, 5374)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3782, 306, 5353)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3803, 306, 5356)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3823, 306, 5348)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3845, 306, 5358)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3904, 306, 5347)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3883, 306, 5339)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3864, 306, 5330)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3783, 306, 5332)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3800, 306, 5336)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3802, 306, 5320)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3825, 306, 5322)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3844, 306, 5334)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3864, 306, 5348)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3887, 306, 5355)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3866, 306, 5350)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3885, 306, 5356)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3845, 306, 5316)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3836, 306, 5301)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3830, 306, 5282)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3863, 306, 5304)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3879, 306, 5310)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3896, 306, 5322)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3839, 306, 5268)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3851, 306, 5282)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3872, 306, 5289)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3899, 306, 5299)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3928, 306, 5310)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3918, 306, 5292)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3905, 306, 5281)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3883, 306, 5273)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3859, 306, 5268)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3864, 306, 5239)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3877, 306, 5251)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3896, 306, 5255)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3919, 306, 5262)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3938, 306, 5277)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3946, 306, 5300)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3963, 306, 5319)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3883, 306, 5228)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3903, 306, 5228)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3922, 306, 5215)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3916, 306, 5241)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3941, 306, 5210)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3940, 306, 5252)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3961, 306, 5250)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3974, 306, 5256)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3959, 306, 5279)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3975, 306, 5278)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3966, 306, 5296)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3979, 306, 5308)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4020, 306, 5281)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4027, 306, 5294)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4038, 306, 5313)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4030, 306, 5257)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4050, 306, 5245)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4049, 306, 5268)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4048, 306, 5289)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4054, 306, 5305)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4067, 306, 5316)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4079, 306, 5306)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4070, 306, 5280)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4078, 306, 5261)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4072, 306, 5246)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4065, 306, 5226)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4090, 306, 5242)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4104, 306, 5258)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4095, 306, 5277)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4096, 306, 5300)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4112, 306, 5294)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4122, 306, 5275)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4133, 306, 5256)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4143, 306, 5288)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4128, 306, 5305)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4099, 306, 5320)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4104, 306, 5337)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4119, 306, 5324)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4163, 306, 5291)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4154, 306, 5326)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4170, 306, 5332)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4194, 306, 5331)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4155, 306, 5328)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4139, 306, 5339)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4120, 306, 5352)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4097, 306, 5359)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4138, 306, 5356)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4157, 306, 5352)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4191, 306, 5348)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4177, 306, 5360)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4206, 306, 5355)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4156, 306, 5373)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4135, 306, 5386)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4118, 306, 5373)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4099, 306, 5383)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4165, 306, 5388)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4185, 306, 5380)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4203, 306, 5379)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4137, 306, 5386)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4148, 305, 5310)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4125, 305, 5492)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4143, 305, 5499)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4030, 305, 5255)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4021, 305, 5536)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4067, 305, 5596)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-4067, 305, 5614)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3927, 305, 5577)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3909, 305, 5545)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3846, 305, 5564)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3831, 305, 5548)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3842, 305, 5530)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3829, 305, 5466)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3812, 305, 5468)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3800, 305, 5483)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3787, 305, 5470)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3934, 305, 5235)
+if stopIfDisabled() then return end
+task.wait()
+char.HumanoidRootPart.CFrame = CFrame.new(-3781, 305, 5350)
+if stopIfDisabled() then return end
+                end
+				task.wait(7)
+			end
+		end)
+
+	else
+		G.auto = false
+	end
+end)
+	
+	
+	---------------------------------------------------
+-- TOGGLE 2: DEIXAR SHARDS VISÍVEL
+---------------------------------------------------
+tab.newToggle("Deixar shards do evento visível", "Abra a gui de shards do Evento", true, function(toggleState)
+
+	local player = game.Players.LocalPlayer
+	local gui = player.PlayerGui:WaitForChild("Shards"):WaitForChild("Event")
+
+	if toggleState then
+		gui.Visible = true
+	else
+		gui.Visible = false
+	end
+end)
