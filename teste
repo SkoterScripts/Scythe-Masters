@@ -13,7 +13,7 @@ local G = {
 }
 
 ---------------------------------------------------
--- LISTA DE POSI«’ES
+-- LISTA DE POSI√á≈êES
 ---------------------------------------------------
 local positions = {
 	CFrame.new(-4197, 306, 5439),
@@ -244,7 +244,7 @@ local positions = {
 ---------------------------------------------------
 -- TOGGLE 1: AUTO FARM
 ---------------------------------------------------
-tab.newToggle("Coletar autom·tico", "Colete presentes automaticamente", false, function(state)
+tab.newToggle("Coletar autom√°tico", "Colete presentes automaticamente", false, function(state)
 	G.auto = state
 
 	if not state then
@@ -273,27 +273,28 @@ tab.newToggle("Coletar autom·tico", "Colete presentes automaticamente", false, f
 end)
 
 ---------------------------------------------------
--- TOGGLE 2: SHARDS VISÕVEL
+-- TOGGLE 2: SHARDS VIS√çVEL
 ---------------------------------------------------
-tab.newToggle("Deixar shards do evento visÌvel", "Abra a gui de shards do Evento", false, function(state)
+tab.newToggle("Deixar shards do evento vis√≠vel", "Abra a gui de shards do Evento", false, function(state)
 	local gui = player.PlayerGui:WaitForChild("Shards"):WaitForChild("Event")
 	gui.Visible = state
 end)
 
 ---------------------------------------------------
--- TOGGLE 3: SHOP EVENT VISÕVEL
+-- TOGGLE 3: SHOP EVENT VIS√çVEL
 ---------------------------------------------------
-tab.newToggle("Deixar shop do evento visÌvel", "Abra a gui de shop do Evento", false, function(state)
+tab.newToggle("Deixar shop do evento vis√≠vel", "Abra a gui de shop do Evento", false, function(state)
 	local gui = player.PlayerGui:WaitForChild("EventShop"):WaitForChild("HOLDER")
 	gui.Visible = state
 end)
 
 ---------------------------------------------------
--- TOGGLE 4: BOOST EVENT VISÕVEL
+-- TOGGLE 4: BOOST EVENT VIS√çVEL
 ---------------------------------------------------
-tab.newToggle("Deixar shop boosts do evento visÌvel", "Abra a gui de boosts do Evento", false, function(state)
+tab.newToggle("Deixar shop boosts do evento vis√≠vel", "Abra a gui de boosts do Evento", false, function(state)
 	local gui = player.PlayerGui:WaitForChild("EventBoosts"):WaitForChild("HOLDER")
 	gui.Visible = state
 end)
+
 
 
