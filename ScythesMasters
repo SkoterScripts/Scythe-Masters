@@ -1,7 +1,7 @@
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
--- CONFIGURA«√O DA DATA DE EXPIRA«√O
+-- CONFIGURA√á√ÉO DA DATA DE EXPIRA√á√ÉO
 local EXPIRATION = {
 	year = 2025,
 	month = 12,
@@ -25,7 +25,7 @@ end
 
 local expireTime = toTimestamp(EXPIRATION)
 
---  SE J¡ ESTIVER EXPIRADO AO EXECUTAR
+--  SE J√Å ESTIVER EXPIRADO AO EXECUTAR
 if os.time() >= expireTime then
 	local gui = Instance.new("ScreenGui")
 	gui.Name = "ExpiredGui"
@@ -60,7 +60,7 @@ if os.time() >= expireTime then
 	return
 end
 
---  VERIFICA«√O CONTÕNUA (SE EXPIRAR COM SCRIPT ABERTO)
+--  VERIFICA√á√ÉO CONT√çNUA (SE EXPIRAR COM SCRIPT ABERTO)
 task.spawn(function()
 	while true do
 		if os.time() >= expireTime then
@@ -212,7 +212,7 @@ button.MouseButton1Click:Connect(function()
 	local TweenService = game:GetService("TweenService")
 	local running = true
 
-	-- AnimaÁ„o das bolinhas
+	-- Anima√ß√£o das bolinhas
 	task.spawn(function()
 		while running do
 			for _, dot in ipairs(dots) do
@@ -240,7 +240,7 @@ button.MouseButton1Click:Connect(function()
 		end
 	end)
 
-	-- Tempo fake de carregamento (2ñ5s)
+	-- Tempo fake de carregamento (2‚Äì5s)
 	task.wait(math.random(3,10))
 
 	running = false
@@ -251,7 +251,7 @@ end)
 -- ===== FIM PARTE 3 =====
 
 
--- TRAVA O SCRIPT AT… DIGITAR A SENHA
+-- TRAVA O SCRIPT AT√â DIGITAR A SENHA
 repeat task.wait() until unlocked
 
 
@@ -270,7 +270,7 @@ local G = {
 }
 
 ---------------------------------------------------
--- LISTA DE POSI«’ES
+-- LISTA DE POSI√á√ïES
 ---------------------------------------------------
 local positions = {
 	CFrame.new(-4197, 306, 5439),
@@ -530,7 +530,7 @@ tab.newToggle("Coletar automatico", "Colete presentes automaticamente", false, f
 end)
 
 ---------------------------------------------------
--- TOGGLE 2: SHARDS VISÕVEL
+-- TOGGLE 2: SHARDS VIS√çVEL
 ---------------------------------------------------
 tab.newToggle("Deixar shards do evento visivel", "Abra a gui de shards do Evento", false, function(state)
 	local gui = player.PlayerGui:WaitForChild("Shards"):WaitForChild("Event")
@@ -538,7 +538,7 @@ tab.newToggle("Deixar shards do evento visivel", "Abra a gui de shards do Evento
 end)
 
 ---------------------------------------------------
--- TOGGLE 3: SHOP EVENT VISÕVEL
+-- TOGGLE 3: SHOP EVENT VIS√çVEL
 ---------------------------------------------------
 tab.newToggle("Deixar shop do evento visivel", "Abra a gui de shop do Evento", false, function(state)
 	local gui = player.PlayerGui:WaitForChild("EventShop"):WaitForChild("HOLDER")
@@ -546,7 +546,7 @@ tab.newToggle("Deixar shop do evento visivel", "Abra a gui de shop do Evento", f
 end)
 
 ---------------------------------------------------
--- TOGGLE 4: BOOST EVENT VISÕVEL
+-- TOGGLE 4: BOOST EVENT VIS√çVEL
 ---------------------------------------------------
 tab.newToggle("Deixar shop boosts do evento visivel", "Abra a gui de boosts do Evento", false, function(state)
 	local gui = player.PlayerGui:WaitForChild("EventBoosts"):WaitForChild("HOLDER")
