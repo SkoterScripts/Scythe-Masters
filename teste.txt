@@ -13,7 +13,7 @@ local G = {
 }
 
 ---------------------------------------------------
--- LISTA DE POSI√á√ïES
+-- LISTA DE POSI«’ES
 ---------------------------------------------------
 local positions = {
 	CFrame.new(-4197, 306, 5439),
@@ -263,19 +263,37 @@ tab.newToggle("Coletar autom·tico", "Colete presentes automaticamente", false, f
 					end
 
 					hrp.CFrame = cf
-					task.wait(0)
+					task.wait()
 				end
 			end
 
-			task.wait(7)
+			task.wait(1)
 		end
 	end)
 end)
 
 ---------------------------------------------------
--- TOGGLE 2: SHARDS VIS√çVEL
+-- TOGGLE 2: SHARDS VISÕVEL
 ---------------------------------------------------
-tab.newToggle("Deixar shards do evento vis√≠vel", "Abra a gui de shards do Evento", false, function(state)
+tab.newToggle("Deixar shards do evento visÌvel", "Abra a gui de shards do Evento", false, function(state)
 	local gui = player.PlayerGui:WaitForChild("Shards"):WaitForChild("Event")
 	gui.Visible = state
 end)
+
+---------------------------------------------------
+-- TOGGLE 3: SHOP EVENT VISÕVEL
+---------------------------------------------------
+tab.newToggle("Deixar shop do evento visÌvel", "Abra a gui de shop do Evento", false, function(state)
+	local gui = player.PlayerGui:WaitForChild("EventShop"):WaitForChild("HOLDER")
+	gui.Visible = state
+end)
+
+---------------------------------------------------
+-- TOGGLE 4: BOOST EVENT VISÕVEL
+---------------------------------------------------
+tab.newToggle("Deixar shop boosts do evento visÌvel", "Abra a gui de boosts do Evento", false, function(state)
+	local gui = player.PlayerGui:WaitForChild("EventBoosts"):WaitForChild("HOLDER")
+	gui.Visible = state
+end)
+
+
